@@ -732,7 +732,7 @@ footer {
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr;
+  grid-template-columns: 1.6fr 1fr 1fr 1.1fr;
   gap: 44px;
   padding-bottom: 44px;
   border-bottom: 1px solid rgba(255,255,255,.08);
@@ -800,7 +800,7 @@ footer {
   .values-grid { grid-template-columns: 1fr 1fr; }
   .value-card { border-bottom: 1px solid var(--line-dark); }
   .value-card:nth-child(2n) { border-right: none; }
-  .footer-grid { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
   .fleet-strip { grid-template-columns: 1fr; }
   .section-head { grid-template-columns: 1fr; gap: 0; }
   .section-head .rule { display: none; }
